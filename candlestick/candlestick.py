@@ -1,7 +1,7 @@
 import re
 
 __builders = dict()
-__default_ohlc = ['open', 'high', 'low', 'close']
+__default_ohlc = ['Open', 'High', 'Low', 'Close']
 
 
 def __get_file_name(class_name):
